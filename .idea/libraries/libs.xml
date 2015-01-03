@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Lib/DJI-SDK-LIB/libs/dji-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Lib/DJI-SDK-LIB/libs/dji-sdk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Lib/DJI-SDK-LIB/libs/bouncycastle.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

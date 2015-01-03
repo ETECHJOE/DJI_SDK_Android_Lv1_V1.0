@@ -1,0 +1,108 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From DJI-SDK-DEMO:
+* ._AndroidManifest.xml
+* .gitignore
+* .idea\
+* .idea\.name
+* .idea\SDK-DEMO.iml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* SDK-DEMO.iml
+* ic_launcher-web.png
+* proguard-project.txt
+From DJI-SDK-LIB:
+* DJI-SDK-LIB.iml
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In DJI-SDK-LIB:
+* AndroidManifest.xml => dJISDKLIB\src\main\AndroidManifest.xml
+* assets\ => dJISDKLIB\src\main\assets\
+* libs\armeabi-v7a\libDJICam.so => dJISDKLIB\src\main\jniLibs\armeabi-v7a\libDJICam.so
+* libs\armeabi-v7a\libffmpeg-neon.so => dJISDKLIB\src\main\jniLibs\armeabi-v7a\libffmpeg-neon.so
+* libs\armeabi-v7a\libFlyForbid.so => dJISDKLIB\src\main\jniLibs\armeabi-v7a\libFlyForbid.so
+* libs\armeabi-v7a\libGroudStation.so => dJISDKLIB\src\main\jniLibs\armeabi-v7a\libGroudStation.so
+* libs\armeabi\libDJICam.so => dJISDKLIB\src\main\jniLibs\armeabi\libDJICam.so
+* libs\armeabi\libffmpeg-neon.so => dJISDKLIB\src\main\jniLibs\armeabi\libffmpeg-neon.so
+* libs\armeabi\libFlyForbid.so => dJISDKLIB\src\main\jniLibs\armeabi\libFlyForbid.so
+* libs\armeabi\libGroudStation.so => dJISDKLIB\src\main\jniLibs\armeabi\libGroudStation.so
+* libs\bouncycastle.jar => dJISDKLIB\libs\bouncycastle.jar
+* libs\dji-core.jar => dJISDKLIB\libs\dji-core.jar
+* res\ => dJISDKLIB\src\main\res\
+* src\ => dJISDKLIB\src\main\java\
+In DJI-SDK-DEMO:
+* AndroidManifest.xml => dJISDKDEMO\src\main\AndroidManifest.xml
+* assets\ => dJISDKDEMO\src\main\assets\
+* lint.xml => dJISDKDEMO\lint.xml
+* res\ => dJISDKDEMO\src\main\res\
+* src\ => dJISDKDEMO\src\main\java\
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

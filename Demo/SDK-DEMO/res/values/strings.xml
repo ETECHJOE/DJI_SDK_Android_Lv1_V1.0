@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DJI-SDK-DEMO</string>
+    <string name="camera_connection_ok">Connected</string>
+    <string name="camera_connection_break">Disconnect</string>
+    <!-- Main Activity -->
+    <string name="press_again_exit">Press again to exit application</string>
+    <string name="demo_title_preview">Video Preview</string>
+    <string name="demo_desc_preview">show the camera video preview</string>
+    <string name="demo_title_camera_protocol">Camera Protocol</string>
+    <string name="demo_desc_camera_protocol">test the camera protocol</string>
+    <string name="demo_title_main_controller_protocol">Main Controller State</string>
+    <string name="demo_desc_main_controller_protocol">show the state of main controller</string>
+    <string name="demo_title_battery_protocol">Battery Info</string>
+    <string name="demo_desc_battery_protocol">show the infomation of battery</string>
+    <string name="demo_title_gimbal_protocol">Gimbal Protocol</string>
+    <string name="demo_desc_gimbal_protocol">test the gimbal protocol</string>
+    <string name="demo_title_range_extender">Range Extender</string>
+    <string name="demo_desc_range_extender">test range extender interface</string>
+    <string name="demo_title_media_sync">Media Sync</string>
+    <string name="demo_desc_media_sync">test media sync interface</string>
+    
+    <!-- Preview Activity -->
+    <string name="title_activity_preview">PreviewActivity</string>
+
+    <!-- Camera Protocol Demo Activity -->
+    <string name="title_activity_camera_protocol_demo">CameraProtocolDemoActivity</string>
+    <string name="camera_start_take_photo">Start Take Photo</string>
+    <string name="camera_stop_take_photo">Stop Take Photo</string>
+    <string name="camera_start_recording">Start Recording</string>
+    <string name="camera_stop_recording">Stop Recording</string>
+    <string name="camera_set_photosize">Set Photo Size</string>
+    <string name="camera_get_photosize">Get Photo Size</string>
+    <string name="camera_set_iso">Set ISO</string>
+    <string name="camera_get_iso">Get ISO</string>
+    <string name="camera_set_whitebalance">Set White Balance</string>
+    <string name="camera_get_whitebalance">Get White Balance</string>
+    <string name="camera_set_exposuremetering">Set Exposure Metering</string>
+    <string name="camera_get_exposuremetering">Get Exposure Metering</string>
+    <string name="camera_set_exposurecompensation">Set Exposure Compensation</string>
+    <string name="camera_get_exposurecompensation">Get Exposure Compensation</string>
+    <string name="camera_set_antiflicker">Set AntiFlicker</string>
+    <string name="camera_get_antiflicker">Get AntiFlicker</string>
+    <string name="camera_set_sharpness">Set Sharpness</string>
+    <string name="camera_get_sharpness">Get Sharpness</string>
+    <string name="camera_set_contrast">Set Contrast</string>
+    <string name="camera_get_contrast">Get Contrast</string>
+    <string name="camera_set_mutiphotocount">Set MutiPhoto Count</string>
+    <string name="camera_get_mutiphotocount">Get MutiPhoto Count</string>
+    <string name="camera_set_cameraaction">Set Camera Action</string>
+    <string name="camera_get_cameraaction">Get Camera Action</string>
+    <string name="camera_set_photoformat">Set Photo Format</string>
+    <string name="camera_get_photoformat">Get Photo Format</string>
+    <string name="camera_set_recordingparam">Set Recording Param</string>
+    <string name="camera_get_recordingparam">Get Recording Param</string>
+    <string name="camera_set_continuousparam">Set Continuous Param</string>
+    <string name="camera_get_continuousparam">Get Continuous Param</string>
+    <string name="camera_set_mode">Set Camera Mode</string>
+    <string name="camera_get_version">Get Camera Version</string>
+    <string name="camera_get_visiontype">Get Vision Type</string>
+    <string name="camera_get_connectisok">Get Connect Is Ok</string>
+    <string name="camera_sync_time">Sync Time</string>
+    <string name="camera_save_config">Save Config</string>
+    <string name="camera_restore_default">Restore Default</string>
+    <string name="camera_format_sdcard">Format SDCard</string>
+
+    <string-array name="isoValues">
+        <item>Auto</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+        <item>3200</item>
+    </string-array>
+    <string-array name="photosizeValues">
+        <item>Default</item>
+        <item>4384x3288</item>
+        <item>4384x2922</item>
+        <item>4384x2466</item>
+        <item>4608x3456</item>
+    </string-array>
+    <string-array name="whitebalanceValues">
+        <item>Auto</item>
+        <item>Sunny</item>
+        <item>Cloudy</item>
+        <item>Indoor</item>
+    </string-array>
+    <string-array name="exposuremeteringValues">
+        <item>Center</item>
+        <item>Average</item>
+        <item>Point</item>
+    </string-array>
+    <string-array name="exposurecompensationValues">
+        <item>Default</item>
+        <item>-2.0</item>
+        <item>-1.7</item>
+        <item>-1.3</item>
+        <item>-1.0</item>
+        <item>-0.7</item>
+        <item>-0.3</item>
+        <item>0.0</item>
+        <item>0.3</item>
+        <item>0.7</item>
+        <item>1.0</item>
+        <item>1.3</item>
+        <item>1.7</item>
+        <item>2.0</item>
+    </string-array>
+    <string-array name="antiflickerValues">
+        <item>Auto</item>
+        <item>60Hz</item>
+        <item>50Hz</item>
+    </string-array>
+    <string-array name="sharpnessValues">
+        <item>Standard</item>
+        <item>Hard</item>
+        <item>Soft</item>
+    </string-array>
+    <string-array name="contrastValues">
+        <item>Standard</item>
+        <item>Hard</item>
+        <item>Soft</item>
+    </string-array>
+    <string-array name="multishotValues">
+        <item>Shot 3</item>
+        <item>Shot 5</item>
+    </string-array>
+    <string-array name="cameraactionValues">
+        <item>Keep Current State</item>
+        <item>Enter Contiuous Shooting</item>
+        <item>Enter Recording</item>
+    </string-array>
+    <string-array name="photoformatValues">
+        <item>Raw</item>
+        <item>Jpeg</item>
+    </string-array>
+    <string-array name="cameramodeValues">
+        <item>Camera</item>
+        <item>Usb</item>
+    </string-array>
+    <string-array name="recordingResolutionValues">
+        <item>Default</item>
+        <item>480P 30</item>
+        <item>720P 30</item>
+        <item>720P 60</item>
+        <item>960P 30</item>
+        <item>1080P 30</item>
+        <item>1080I 60</item>
+    </string-array>
+    <string-array name="recordingFovValues">
+        <item>FOV0</item>
+        <item>FOV1</item>
+        <item>FOV2</item>
+    </string-array>
+
+    <!-- Gimbal Demo Activity -->
+    <string name="title_activity_gimbal_demo">GimbalDemoActivity</string>
+    <string name="gimbal_pitch">PITCH</string>
+    <string name="gimbal_pitch_up">  +  </string>
+    <string name="gimbal_pitch_down">  -  </string>
+    <string name="gimbal_pitch_go">  GO  </string>
+    <string name="gimbal_yaw">YAW</string>
+    <string name="gimbal_yaw_left"> &lt;- </string>
+    <string name="gimbal_yaw_right"> -&gt; </string>
+    <string name="gimbal_attitude">Gimbal attitude:</string>
+
+    <!-- Main Controller Demo Activity -->
+    <string name="title_activity_main_controller_demo">MainControllerDemoActivity</string>
+    <string name="main_controller_state">Main Controller State:</string>
+    <string name="main_controller_error">Main Controller Error:</string>
+    <string name="MCU_NO_ERROR">MCU NO ERROR</string>
+    <string name="MCU_CONFIG_ERROR">MCU CONFIG ERROR</string>
+    <string name="MCU_SERIALNUM_ERROR ">MCU SERIALNUM ERROR </string>
+    <string name="MCU_IMU_ERROR">MCU IMU ERROR</string>
+    <string name="MCU_X1_ERROR">MCU X1 ERROR</string>
+    <string name="MCU_X2_ERROR">MCU X2 ERROR</string>
+    <string name="MCU_PMU_ERROR">MCU PMU ERROR</string>
+    <string name="MCU_TRANSMITTER_ERROR">MCU TRANSMITTER ERROR</string>
+    <string name="MCU_SENSOR_ERROR">MCU SENSOR ERROR</string>
+    <string name="MCU_COMPASS_ERROR">MCU COMPASS ERROR</string>
+    <string name="MCU_IMU_CALIBRATION_ERROR">MCU IMU CALIBRATION ERROR</string>
+    <string name="MCU_COMPASS_CALIBRATION_ERROR">MCU COMPASS CALIBRATION ERROR</string>
+    <string name="MCU_TRANSMITTER_CALIBRATION_ERROR">MCU TRANSMITTER CALIBRATION ERROR</string>
+    <string name="MCU_INVALID_BATTERY_ERROR">MCU INVALID BATTERY ERROR</string>
+    <string name="MCU_INVALID_BATTERY_COMMUNICATION_ERROR">MCU INVALID BATTERY COMMUNICATION ERROR</string>
+    <string name="MCU_UNKOWN_ERROR">MCU UNKOWN ERROR</string>
+
+    <!-- Battery Info Demo Activity -->
+    <string name="title_activity_battery_info_demo">BatteryInfoDemoActivity</string>
+    <string name="battery_info">Battery Info:</string>
+
+    <!-- Range Extender Demo Activity -->
+    <string name="title_activity_range_extender">RangeExtenderDemoActivity</string>
+    <string name="failed_to_get_repeater_info">Wi-Fi Repeater Connection Failed</string>
+    <string name="Current_Binded">Current Binded</string>
+    <string name="Info">Info</string>
+    <string name="SSID">SSID:</string>
+    <string name="MAC">MAC:</string>
+    <string name="New_Binded">New Binded</string>
+    <string name="mac_instruction1">(Mac last six characters\nUse only 0-9、A-F、a-f)</string>
+    <string name="mac_not_finish_input">mac addr not input finished</string>
+    <string name="Bind">Bind</string>
+    <string name="Bind_Success">Bind Success</string>
+    <string name="Bind_Failed">Bind Failed</string>
+    <string name="Rename_Ssid">Rename SSID</string>
+    <string name="Rename">Rename</string>
+    <string name="ssid_invalid_char">Symbols not Permitted</string>
+    <string name="ssid_instruction1">Use only "a-z","A-Z","0-9","_".\nCannot Exceed 24 Characters.</string>
+    <string name="Rename_Success">Rename Success</string>
+    <string name="Rename_Failed">Rename Failed</string>
+    <string name="Password">Password</string>  
+    <string name="Set_password">Set Password</string>  
+    <string name="Set_Password_Success">Set Password Success</string>
+    <string name="Set_Password_Failed">Set Password Failed</string>
+    <string name="password_instruction">Use only "a-z","A-Z","0-9". 8 - 16 Characters.\n "" for resetting the password to null</string>
+    <string name="Message_Waiting">Please Waiting...</string>
+    
+    <!-- Range Extender Demo Activity -->
+    <string name="title_activity_media_sync_demo">MediaSyncDemoActivity</string>
+    <string name="sync_file_title">Sync file</string>
+    <string name="sync_success">Sync file success</string>
+    <string name="sync_failed">Sync file failed</string>
+
+
+</resources>

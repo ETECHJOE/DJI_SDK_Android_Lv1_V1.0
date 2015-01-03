@@ -1,0 +1,10 @@
+dji.sdk.api
+dji.sdk.api.Battery
+dji.sdk.api.Camera
+dji.sdk.api.Gimbal
+dji.sdk.api.MainController
+dji.sdk.api.RangeExtender
+dji.sdk.api.media
+dji.sdk.interfaces
+dji.sdk.util
+dji.sdk.widget

@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Demo/SDK-DEMO/bin/dexedLibs/android-support-v4-613303b3b6576c7244531b664127b13f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Demo/SDK-DEMO/bin/dexedLibs/android-support-v4-e046bdc8cd64caf1b17becc0334193e6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Demo/SDK-DEMO/bin/dexedLibs/bouncycastle-ebca2737d516c4b2f9de5920e4cd1b0f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Demo/SDK-DEMO/bin/dexedLibs/bouncycastle-3f4f69d97eb0ce1e36ad11e2840c5381.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Demo/SDK-DEMO/bin/dexedLibs/dji-core-8840bf095745c5bdb206a39aca1e5082.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Demo/SDK-DEMO/bin/dexedLibs/dji-core-6d0462e26c76edf2571415bda3e97c98.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Demo/SDK-DEMO/bin/dexedLibs/bouncycastle-98d9c4d328ec16abf900b721324fd6b4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Demo/SDK-DEMO/bin/dexedLibs/dji-core-7b260e72e3ca4eae5db6b19c73dbb004.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Demo/SDK-DEMO/bin/dexedLibs/dji-sdk-lib-f183166aead3235e403f4bd7b5041d4b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Demo/SDK-DEMO/bin/dexedLibs/dji-sdk-lib-892bd02af3ef240a58c225da3abc4f66.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Demo/SDK-DEMO/bin/dexedLibs/dji-sdk-1cd8a5c9da397ae63ebd084cc5177438.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Demo/SDK-DEMO/bin/dexedLibs/dji-sdk-1a57fca87077470ce0871e6913e2873f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Demo/SDK-DEMO/bin/dexedLibs/dji-sdk-cfd7f2658c054c10a15f9aee06da33d4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

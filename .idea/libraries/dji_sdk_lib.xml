@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="dji-sdk-lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Lib/DJI-SDK-LIB/bin/dji-sdk-lib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
